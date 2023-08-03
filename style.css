@@ -1,0 +1,299 @@
+.heroSection
+{
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+padding-left: 200px;
+padding-top: 50px;
+align-items: center;
+gap: 100px;
+}
+
+#heroImage
+{
+    height: 500px;
+}
+
+#heroTitle
+{
+    font-family: 'Raleway', sans-serif;
+    color: #272727;
+font-family: Lato;
+font-size: 70px;
+font-style: normal;
+font-weight: 800;
+}
+
+#heroSubtitle
+{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+#heroCTAButton
+{
+    margin-top: 16px;
+}
+#attributesSection
+{
+    margin: 128px 240px;
+    display: flex;
+    gap: 90px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+padding: 43px 88px;
+}
+
+.attributeTitles
+{
+    font-size: 18px;
+font-style: normal;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+
+}
+.primaryButton
+{
+    border-radius: 8px;
+background: #E55473;
+color: white;
+border: 0;
+padding: 20px 43px;
+}
+
+
+
+.sublevelTitles
+{
+    font-family: 'Raleway', sans-serif;
+    color: #272727;
+font-family: Lato;
+font-style: normal;
+font-weight: 800;
+text-align: center;
+font-size: 40px;
+}
+
+.sublevelSubtitles
+{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+}
+
+.highlight-red
+{
+    color: #E55473;
+}
+#featuredSection
+{
+    margin-top: 176px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 128px;
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#featuredSectionGalleryItemList
+{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.featuredSectionGalleryItems
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.featuredSectionGalleryItemImage
+{
+    width: 100%;
+    height: auto;
+}
+
+.featuredSectionGalleryItemsImageHolder
+{
+width: 150px;
+height: 269px;
+padding-left: 38px;
+padding-right: 38px;
+padding-bottom: 0px;
+padding-top: 55px;
+flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+
+.featuredSectionGalleryItemHeading
+{
+    text-decoration: none;
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
+.firstImage
+{
+background: rgba(167, 33, 98, 0.15);
+}
+
+.secondImage
+{
+background: rgba(5, 151, 160, 0.15);
+}
+
+.thirdImage 
+{
+background: rgba(71, 125, 17, 0.15);
+}
+footer
+{
+    background: #111010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+gap: 24px;
+padding: 128px 320px;
+}
+
+#footerTitle
+{
+    font-family: 'Raleway', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+#footerSmalltext
+{
+    color: rgba(65, 58, 58, 0.4);
+text-align: center;
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#offerSection
+{
+    display: flex;
+background: rgba(229, 84, 115, 0.05);
+padding: 100px 185px;
+gap: 92px;
+align-items: center;
+}
+
+#offerSectionText
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 24px;
+}
+span{
+    color: #E55473;
+}
+
+#offerSectionImage
+{
+    height: 50%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,500&display=swap');
+
+body
+{
+    width: 100%;
+}
+#sampleSection
+{
+    margin: 128px 240px;
+
+}
+
+#sampleSectionHeader
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+#sampleSectionGalleryList
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.sampleSectionGalleryListItems
+{
+    list-style-type: none;
+}
+
+.sampleSectionGalleryImages
+{
+    width: 342px;
+    height: 396px;
+
+}
+#signUpSection
+{
+    margin: 125px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./flower asset/Rectangle 9.png');
+    background-repeat: none;
+    background-size: cover;
+    padding: 120px 140px;
+    gap: 40px;
+}
+
+#subForm
+{
+    display: flex;
+    gap: 15px;
+}
+
+#emailInputBox
+{
+    padding: 22px 0 22px 22px;
+    width: 500px;
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
